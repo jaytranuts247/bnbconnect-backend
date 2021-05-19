@@ -1,0 +1,40 @@
+{
+  "name": "airbnb-clone-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jaytranuts247/airbnb-clone-v2.git",
+  "author": "“Jay <tranquang2407@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && yarn start",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@stayko/airbnb-scraper": "^1.0.4",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.6",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "get-free-https-proxy": "^2.0.2",
+    "global": "^4.4.0",
+    "joi": "^17.4.0",
+    "jsonpath-plus": "^5.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "mime-types": "^2.1.30",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.5",
+    "netlify-cli": "^3.29.17",
+    "proxy-chain": "^1.0.2",
+    "puppeteer": "^9.0.0"
+  }
+}
